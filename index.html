@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ <title>ZAHID HUWAID PORTFOLIO</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF8">
+    
+    <style>
+        
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    outline:none;
+    text-decoration:none;
+    font-family:poppins;
+    font-weight:bold;
+}
+
+#buy{
+    width:40%;
+    height:4rem;
+    border:none;
+    border:1px navy solid;
+    background:green;
+    border-radius:0.6rem;
+    color:white;
+    }
+
+
+#down{
+    
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:3rem;
+  margin-top:5%;
+}
+
+
+#table{
+display:none;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    background:#ccc;
+    margin-bottom:5%;
+     margin-top:5%;
+     border-radius:1rem;
+     border:navy 2px solid;
+     box-shadow:0px 0px 10px 0px black;
+}
+
+table{
+
+padding:5%;
+margin-top:5%;
+margin-bottom:5%;
+    width:88%;
+    height:10rem;
+    
+    margin-left:6%;
+     border-radius:1rem;
+}
+
+td{
+font-style:oblique;
+margin:5%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    border-radius:0.6rem;
+    text-align:center;
+    height:3rem;
+    border:navy 1px solid;
+}
+
+
+#flag-icon{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about-me{
+margin-top:5%;
+margin-bottom:5%;
+color:skyblue;
+display:none;
+padding:5%;
+text-align:center;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    background:#ggg;
+    border-radius:1rem;
+    border:2px navy solid;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+
+#about-img{
+    width:80%;
+    height:auto;
+    margin-left:0%;
+    border-radius:2rem;
+    margin-top:5%;
+    box-shadow:0px 0px 10px 0px black;
+     border:2px navy solid;
+}
+
+#about-img:hover{
+    width:90%;
+    margin-left:1%;
+};
+
+#about-hr{
+    color:navy;
+  width:80%;
+  margin-left:10%;
+  height:0.3rem;
+  
+}
+
+#about-arrow{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#involve{
+    width:100%;
+    height:17rem;
+    
+    box-shadow:0px 0px 10px 0px black;
+}
+
+
+#inv-div:hover{
+    width:98%;
+    margin-left:1%;
+}
+
+
+
+#inv-div{
+margin-top:5%;
+   width:80%; 
+   margin-left:10%;
+   height:auto;
+   box-shadow:0px 0px 10px 0px black;
+
+}
+
+
+#container{
+    display:none;
+    
+}
+
+#loader{
+    width:100%;
+    height:100vh;
+    display:flex;
+    direction:column;
+    align-items:center;
+    justify-content:space-around;
+background:#ccc;
+    
+}
+
+h3{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#spin{
+    font-size:3rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#back-btn{
+    width:40%;
+    margin-left:30%;
+    height:3rem;
+    background:blue;
+    margin-bottom:5%;
+    text-align:center;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    
+}
+
+#back-btn2{
+    width:40%;
+    margin-left:0%;
+    height:3rem;
+    background:blue;
+    margin-top:2%;
+    text-align:center;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    
+}
+
+#back-btn,#btn2{
+    cursor:pointer;
+}
+
+#img-icon{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size:3.2rem;
+}
+
+
+h6{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+#resume-div{
+margin-top:10%;
+display:none;
+    width:80%;
+    margin-left:10%;
+    box-shadow:0px 0px 10px 0px black;
+    border-radius:1rem;
+}
+
+#resume{
+    width:80%;
+    margin-left:10%;
+    height:auto;
+    margin-top:2%;
+    border-radius:1rem;
+}
+
+#resume:hover{
+    width:100%;
+    margin-left:0;
+    
+}
+
+#resume-div h1{
+    text-align:center;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#bdy{
+    scroll-behavior:smooth;
+    
+}
+
+#show-bar{
+padding:3%;
+display:flex;
+justify-content:end;
+border-radius:1rem;
+display:none;
+    width:50%;
+    margin-left:45%;
+    border:2px navy groove;
+    height:auto;
+    position:relative;
+    margin-top:6rem;
+    margin-bottom:-5rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+
+
+#show-bar li::before {
+  content: "";
+  
+}
+
+
+#show-bar li{
+   margin-top:5%;
+}
+
+
+#div1{
+top:0;
+z-index:1000;
+position:fixed;
+display:flex;
+justify-content:space-between;
+align-items:center;
+    margin-top:1rem;
+    width:80%;
+    border:2px solid navy;
+    height:4rem;
+    margin-left:10%;
+    box-shadow:0px 0px 5px 0px grey;
+    border-radius:0.5rem;
+    
+}
+
+#bar{
+margin-left:5%;
+    font-size:3rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#logo{
+border-radius:24%;
+    margin-left:0;
+    width:4rem;
+    height:3rem;
+   
+}
+
+
+#strong1{
+
+    font-size:0.8rem;
+    color:grey;
+}
+
+
+#div2{
+position:relative;
+    width:90%;
+    height:auto;
+    border:groove navy 2px;
+    border-radius:0.6rem;
+    margin-left:5%;
+    margin-top:6rem;
+    box-shadow:0px 0px 5px 0px black;
+}
+
+h2{
+    text-align:center;
+    line-height:1.5rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:serif;
+  margin-top:2%;
+}
+
+
+#div{
+border-radius:0.3rem;
+display:flex;
+justify-content:space-between;
+align-items:center;
+    width:100%;
+    height:3rem;
+    box-shadow:0px 0px 3px 0px black;
+}
+
+
+#div:hover{
+    background:grey;
+}
+
+li{
+margin-left:5%;
+    list-style:none;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#range{
+box-shadow:0px 0px 4px 0px black;
+border-radius:0.5rem;
+    width:50%;
+    height:1.5rem;
+    margin-right:5%;
+   
+  background:;
+}
+
+#under-range{
+
+box-shadow:0px 0px 4px 0px black;
+padding-left:2%;
+display:flex;
+justify-content:end;
+align-items:center;
+    width:90%;
+    height:1.5rem;
+border-radius:0.5rem;
+background:white;
+}
+
+
+#under-range{
+    animation:zahid 3s infinite;
+    -webkit-animation:zahid 3s infinite;
+}
+
+@keyframes zahid{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:90%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+#under-range2{
+
+box-shadow:0px 0px 4px 0px black;
+padding-left:2%;
+display:flex;
+justify-content:end;
+align-items:center;
+    width:90%;
+    height:1.5rem;
+border-radius:0.5rem;
+background:white;
+}
+
+
+
+
+#under-range2{
+    animation:zahid2 3s infinite;
+    -webkit-animation:zahid2 3s infinite;
+}
+
+@keyframes zahid2{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:75%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+#under-range3{
+
+box-shadow:0px 0px 4px 0px black;
+padding-left:2%;
+display:flex;
+justify-content:end;
+align-items:center;
+    width:90%;
+    height:1.5rem;
+border-radius:0.5rem;
+background:white;
+}
+
+
+
+
+#under-range3{
+    animation:zahid3 3s infinite;
+    -webkit-animation:zahid3 3s infinite;
+}
+
+@keyframes zahid3{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:85%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+#under-range4,#under-range5,#under-range6,#under-range7
+{
+
+box-shadow:0px 0px 4px 0px black;
+padding-left:2%;
+display:flex;
+justify-content:end;
+align-items:center;
+    width:90%;
+    height:1.5rem;
+border-radius:0.5rem;
+background:white;
+}
+
+
+#under-range4{
+    animation:zahid4 3s infinite;
+    -webkit-animation:zahid4 3s infinite;
+}
+
+@keyframes zahid4{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:50%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+#under-range5{
+    animation:zahid5 3s infinite;
+    -webkit-animation:zahid5 3s infinite;
+}
+
+@keyframes zahid5{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:82%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+#under-range6{
+    animation:zahid6 3s infinite;
+    -webkit-animation:zahid6 3s infinite;
+}
+
+@keyframes zahid6{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:68%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+
+#under-range7{
+    animation:zahid7 3s infinite;
+    -webkit-animation:zahid7 3s infinite;
+}
+
+@keyframes zahid7{
+   0%{width:0%;
+   font-size:0rem;
+   
+   }
+    100%{width:100%;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+
+
+#div3{
+overflow:scroll;
+border-radius:3%;
+    width:90%;
+    margin-left:5%;
+    height:33rem;
+    border:2px navy groove;
+    position:relative;
+    margin-top:1rem;
+    box-shadow:0px 0px 4px 0px black;
+}
+
+
+#html-img{
+margin-top:27.5px;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+#css2-img{
+    display:none;
+    position:absolute;
+    top:27.5px;
+    left:0;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7{
+font-size:0.6rem;
+    margin-left:1%;
+    border-radius:0.5rem;
+    padding:5px;
+    background:#ccc;
+    color:darkblue;
+    height:32px;
+    width:16%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+#css3-img{
+    display:none;
+    position:absolute;
+    top:27.5px;
+    left:0;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+
+#java-img{
+ position:absolute;
+    top:27.5px;
+    left:0;
+display:none;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+#jquery-img{
+ position:absolute;
+    top:27.5px;
+    left:0;
+display:none;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+
+#sql-img{
+ position:absolute;
+    top:27.5px;
+    left:0;
+display:none;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+#php-img{
+ position:absolute;
+    top:27.5px;
+    left:0;
+display:none;
+    width:90%;
+    margin-left:5%;
+    height:30rem;
+     border-radius:3%;
+    box-shadow:0px 0px 8px 0px black;
+}
+
+
+#div4{
+display:flex;
+justify-content:space-around;
+align-items:center;
+border-radius:0.5rem;
+    width:90%;
+    margin-left:5%;
+    height:100px;
+    border:2px navy groove;
+    position:relative;
+    margin-top:1rem;
+    box-shadow:0px 0px 4px 0px black;
+    background:#ccc;
+
+}
+
+
+#ach{
+font-size:1.3rem;
+
+background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-family:serif;
+}
+
+
+
+
+#div5{
+padding-top:3%;
+padding-bottom:3%;
+    display:flex;
+    justify-content:start;
+    flex-direction:column;
+    align-items:center;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    border:2px navy groove;
+    position:relative;
+    margin-top:0.2rem;
+    box-shadow:0px 0px 4px 0px black;
+    
+    
+}
+
+#img1{
+margin-top:3%;
+    width:80%;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+
+#img1:hover{
+    width:92%;
+}
+
+
+#verify1,#verify2,#verify3,#verify4{
+cursor:pointer;
+margin-top:3%;
+    width:30%;
+    border-radius:0.5rem;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color:navy;
+    outline:none;
+    border:none;
+    
+}
+
+
+a{
+    color:navy;
+}
+
+
+#div6{
+padding:3%;
+border-radius:0.5rem;
+     width:90%;
+    margin-left:5%;
+    height:auto;
+    border:2px navy double;
+    position:relative;
+    margin-top:1rem;
+    box-shadow:0px 0px 4px 0px black;
+    
+    background:url("https://i.supaimg.com/8767f4ea-14d8-4142-99b9-5efa3fb80a56.jpg");
+    background-size:cover;
+}
+
+
+#div6 li{
+  list-style:square;
+  margin-top:3%;
+  text-align:center;
+  
+}
+
+
+ul{
+    color:navy;
+}
+
+#skill{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align:center;
+}
+
+
+#div7{
+    overflow:scroll;
+    border-radius:0.5rem;
+     width:90%;
+    margin-left:5%;
+    height:auto;
+    border:2px navy dotted;
+    position:relative;
+    margin-top:1rem;
+    box-shadow:0px 0px 4px 0px black;
+    background:#ccc;
+}
+
+
+
+#slider{
+display:flex;
+padding-top:2%;
+padding-bottom:2%;   
+}
+
+#review{
+border-radius:3%;
+margin-right:0.2%;
+    width:440px;
+    float:left;
+    border:navy groove 4px;
+
+}
+
+nav{
+    width:70%;
+    margin-left:15%;
+    margin-top:5%;
+    margin-bottom:5%;
+    box-shadow:0px 0px 10px 0px black;
+
+}
+
+#rate{
+    width:100%;
+}
+
+
+#rate:hover{
+    border:navy 3px solid;
+}
+#div8{
+display:flex;
+justify-content:space-around;
+    width:20%;
+    margin-left:40%;
+    height:auto;
+  
+   
+   
+    
+}
+
+#right{
+position:absolute;
+top:50%;
+left:50%;
+text-align:center;
+float:left;
+    font-size:2rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#div9{
+border-radius:0.5rem;
+    width:90%;
+    margin-left:5%;
+    height:auto;
+    background:inherit;
+    margin-top:4%;
+    
+}
+
+
+
+label{
+   text-align:right;
+   background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+form{
+margin-top:5%;
+filter:blur(20px);
+background:#fff;
+padding:3%;
+    width:100%;
+    border:2px navy solid;
+    box-shadow:0px 0px 20px 0px black;
+    border-radius:0.6rem;
+}
+
+
+input{
+margin-top:6%;
+    width:80%;
+    margin-left:10%;
+    border:none;
+    height:3rem;
+    border-radius:0.6rem;
+    text-align:center;
+    border:1px navy solid;
+}
+
+select{
+text-align:center;
+    border-radius:0.6rem;
+    color:navy;
+    width:70%;
+    margin-left:15%;
+}
+
+#submit{
+border-radius:1rem;
+    width:50%;
+    margin-left:25%;
+    margin-top:2%;
+    border:2px navy groove;
+    box-shadow:0px 0px 5px 0px black;
+}
+
+
+textarea{
+padding:4%
+width:80%;
+height:8rem;
+    border-radius:0.6rem;
+    color:navy;
+    border:1px navy solid;
+    margin-left:10%;
+    text-align:center;
+}
+
+
+fieldset{
+
+margin:0;
+    padding:3%;
+    width:100%;
+    border:2px white solid;
+    box-shadow:0px 0px 10px 0px black;
+    border-radius:0.6rem;
+
+}
+
+
+
+
+#chk{
+
+    accent-color:red;
+   }  
+ 
+    
+input:focus{
+    background:#ccc 
+}
+
+textarea:focus{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h5{
+    text-align:center;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+footer{
+height:auto;
+margin-bottom:2%;
+padding:2%;
+    width:98%;
+    margin-left:1%;
+    background:black;
+    box-shadow:0px 0px 10px 0px white;
+    border-radius:0.6rem;
+    color:white;
+    margin-top:3%;
+    text-align:center;
+}
+
+footer a{
+
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#go-top{
+    font-size:2rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#name{
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#youtube-icon{
+    color:red;
+    font-size:1.3rem;
+  
+}
+
+
+#insta-icon{
+    font-size:1.3rem;
+    color:brown;
+}
+
+#email-icon{
+     font-size:1.3rem;
+    color:grey;
+}
+
+
+#phone-icon{
+     font-size:1.3rem;
+    color:green;
+}
+
+
+#flag-icon{
+     font-size:1.0rem;
+    color:orange;
+    
+}
+
+
+#form-icon{
+font-size:4rem;
+    background: linear-gradient(to right, #6a5af9, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+        
+
+
+@media(min-width:768px){
+
+#div9{
+height:auto;
+}
+
+
+input{
+height:8rem;
+margin-top:10%;
+font-size:2rem;
+}
+
+
+#involve{
+
+   width:80%; 
+ margin-left:10%;
+   height:38rem;  
+box-shadow:0px 0px 0px 0px black;
+
+}
+
+
+label{
+font-size:3.5rem;
+}
+
+
+select{
+height:5rem;
+}
+
+
+select{
+font-size:3.5rem;
+}
+
+textarea{
+height:10rem;
+font-size:2.5rem;
+width:60%;
+margin-left:20%;
+}
+
+#div1{
+height:9rem;
+font-size:3rem;
+}
+
+
+#div2{
+margin-top:12rem;
+}
+
+
+
+#strong1{
+font-size:2.0rem;
+}
+
+
+#bar{
+font-size:3.4rem;
+}
+
+
+#show-bar{
+margin-top:11rem;
+box-shadow:0px 0px 10px 0px black;
+margin-bottom:-10rem;
+}
+
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7{
+height:5rem;
+font-size:1.7rem;
+}
+
+
+#div2{
+height:auto;
+}
+
+
+#div{
+height:7rem;
+font-size:2rem;
+}
+
+#range,#under-range,#under-range2,#under-range3,#under-range4,#under-range5,#under-range6,#under-range7{
+height:5.5rem;
+}
+
+
+#slider{
+width:3761px
+height:25rem;
+display:flex;
+padding-top:2%;
+padding-bottom:2%;   
+}
+
+#review{
+border-radius:3%;
+margin-right:0.2%;
+    width:870px;
+    float:left;
+    border:navy groove 4px;
+
+}
+
+
+#verify1,#verify2,#verify3,#verify4{
+cursor:pointer;
+height:6rem;
+font-size:1rem;
+}
+
+
+#css2-img,#css3-img,#java-img,#jquery-img,#sql-img,#php-img,#html-img{
+height:43rem;
+}
+
+
+#div3{
+height:48rem;
+}
+
+
+i{
+margin-left:5%;
+margin-right:5%;
+font-size:2.5rem;
+}
+
+#coding{
+display:none;
+}
+
+
+}
+  
+  
+  #coding{
+      width:80%;
+      margin-left:10%;
+      margin-top:6rem;
+      margin-bottom:-5rem;
+      border-radius:1rem;
+      border:1px navy solid;
+      box-shadow:0px 0px 10px 0px black;
+  }
+  
+  
+  #coding:hover{
+      
+      width:98%;
+      height:21rem;
+      margin-left:1%;
+  }
+  
+    </style>
+    
+    </head>
+    <body id="bdy">
+ <div id="container">
+    <section>
+    
+    
+    
+    
+    
+    
+  <div id="div1">
+ <b id="bar">+</b>
+
+<strong id="strong1">ZAHID HUWAID A DEDICATED LEARNER</strong>
+
+ <img src="https://i.supaimg.com/37ea8bf5-bb8f-460f-9554-1c71403d99b7.jpg" id="logo">
+ 
+  </div> 
+
+
+
+  <div id="show-bar">
+  
+
+    <ul>
+        
+<li>
+<i class="fas fa-file"></i>
+<b id="b1">SEE RESUME</b></li>
+ 
+        <li>
+        <i class="fas fa-moon"></i>
+ <b id="b2">DARK MODE</b></li>
+        
+       <li>
+       <i class="fas fa-user"></i>
+       <b id="b3">ABOUT ME</b></li>
+       <li>
+       <i class="fas fa-book"></i>
+       <b2 id="b4"><a   href="#div4">CERTIFICATES</a></b2>
+       </li>
+       
+       <li>
+       <i class="fas fa-sign-out-alt"></i>
+           <b id="b5">LOGOUT</b>
+       </li>
+       
+       <li>
+       <i class="fa-solid fa-hand-holding-heart"></i>
+
+           <b id="b6">DONATE</b>
+       </li>
+    </ul>   
+  </div>
+  
+    
+ <img src="    https://i.supaimg.com/ef2964d1-1be0-4d92-a1a0-d99ba0fff332.gif" id="coding"> 
+  
+  <div id="div2"><h2>𝐙𝐀ح𝐈𝐃 ᎻᏬو𝐀𝐈𝐃<br>A<br>DEDICATED LEARNER</h2>
+     <ul>
+     <div id="div">
+ <button id="btn1">SHOW ME</button>
+          <li>HTML</li>  
+          <div id="range">
+             <div id="under-range">90%</div> 
+          </div>
+     </div>
+    
+      <div id="div">
+  <button id="btn2">SHOW ME</button>
+          <li>CSS2</li>
+ 
+          <div id="range">
+              <div id="under-range2">75%</div>
+          </div> 
+      </div>  
+         
+         <div id="div">
+          <button id="btn3">SHOW ME</button>
+           <li>CSS3</li> 
+           
+           <div id="range">
+               <div id="under-range3">85%</div>
+           </div> 
+         </div>
+          
+          <div id="div">
+          <button id="btn4">SHOW ME</button>
+      <li>J.SCRIPT</li> 
+      <div id="range">
+               <div id="under-range4">50%</div>
+           </div> 
+        
+          </div>
+      
+      <div id="div">
+       <button id="btn5">SHOW ME</button>
+        <li> JQUERY</li>  
+         <div id="range">
+               <div id="under-range5">82%</div>
+           </div> 
+      </div>
+       
+       <div id="div">
+        <button id="btn6">SHOW ME</button>
+         <li>MY SQL</li> 
+          <div id="range">
+               <div id="under-range6">68%</div>
+           </div> 
+       </div>
+        
+        <div id="div">
+         <button id="btn7">SHOW ME</button>
+          <li>PHP</li>  
+           <div id="range">
+               <div id="under-range7">STILL LEARNING</div>
+           </div> 
+        </div>
+       
+       
+     </ul>  
+  </div>
+  
+  <div id="div3">
+ <img src="https://i.supaimg.com/d45742ac-ab92-44e7-922d-a650058bfeed.jpg" id="html-img">
+ <img src="https://i.supaimg.com/1e882e37-55ec-47c3-bf75-acf02fb93b4a.jpg" id="css2-img">
+ <img src="https://i.supaimg.com/941be06c-6b1c-48b4-9973-dd7dc60ebc7e.jpg" id="css3-img">
+ <img src=" https://i.supaimg.com/cb3dcec6-b68f-4837-a0ed-1632b88f30be.jpg" id="java-img">
+ 
+ <img src="https://i.supaimg.com/00eadf0d-12af-4a60-9043-67ae3483e018.jpg" id="jquery-img">
+ 
+ <img src="https://i.supaimg.com/735865f6-cef7-41e0-9caa-3bc2ba72fd61.jpg" id="sql-img">
+ 
+ <img src="https://i.supaimg.com/8607ee1f-444a-4dfa-9aa4-07a91fa56008.jpg" id="php-img">
+</div>
+  
+  <div id="div4">
+   <i class="fas fa-image" id="img-icon"></i>
+ <h1 id="ach">GALARY*</h1>
+<h6>made with ❣️</h6>
+ 
+     <i class="fas fa-image" id="img-icon"></i>
+      </h1>
+  </div>
+  
+  <div id="div5">
+      <img src="https://i.supaimg.com/7741bf67-3c46-4a31-be2e-1c4af6c533b5.jpg" id="img1">
+   <button id="verify1"><a href="https://www.stpcomputereducation.com/certificate-verification">VERIFY CERTIFICATE</a></button>
+   <img src="https://i.supaimg.com/8f7d9ff3-760e-4c4e-ac2a-aa61a94196ef.jpg" id="img1">
+   <button id="verify2"><a  href= "https://api2.sololearn.com/v2/certificates/CC-SMW3RJJX/image/png?t=638831736385638680">VERIFY CERTIFICATE</a></button>
+   
+    <img src=" https://i.supaimg.com/8995855f-6a60-4b39-9282-6908ee67d48e.jpg " id="img1">
+   <button id="verify3"><a  href="https://api2.sololearn.com/v2/certificates/CC-HKKWQSJX/image/png?t=638788458993108420">VERIFY CERTIFICATE</a></button>
+   
+    
+    <img src=" https://i.supaimg.com/817e03bf-416b-41fa-a797-efe50bad3925.jpg " id="img1">
+   <button id="verify4"><a  href="https://api2.sololearn.com/v2/certificates/CC-H3LBAOVQ/image/png?t=638788450441411980">VERIFY CERTIFICATE</a></button>
+   <br> 
+   <hr color="navy" width="90%">
+   <br>
+  <h2>BUY A TEMPLATE ON 50% DISCOUNT</h2>
+   <img src="https://i.supaimg.com/cbaee24e-cac9-44c0-8931-8b9cd549e75d.jpg" id="img1">
+   <br>
+   <button id="buy">BUY NOW</button>
+  </div>
+
+
+
+  <div id="div6">
+  <h1 id="skill">ABOUT THE SKILLS</h1>
+ <center> <hr color=navy width =80%>
+ </center>
+ <ul id="uldo">
+         <li>HTML, CSS2, CSS3:
+I can make simple web pages, set colors, add images, lists, and boxes using HTML and CSS easily.</li>   
+<hr>
+         <li>JAVA SCRIPT:
+I know how to make the page interactive, like clicking, showing, hiding things, and making simple small functions.</li>  
+<hr>
+         <li>JQUERY:
+I can use jQuery for basic animations, show or hide items, and make menus or buttons work better on the page.</li>  
+<hr>
+         <li>MySQL:
+I can create tables, add new data, search for records, and delete or update information in the database.</li>  
+<hr>
+         <li>PHP:
+I know how to collect form details, connect to a database, and make basic signup or login pages work.</li>  
+<hr>
+         <li>RESPONSIVE DESIGN:
+I use simple tricks so the website looks fine on both computer and mobile screens, using width, height, and media queries.
+
+</li>  
+<hr>
+         <li>LOGIN, SIGNUP PAGES:
+I can design simple forms for signup or log in and save user info using basic form validation.</li>  
+<hr>
+         <li>OTP VIA EMAIL:
+I tried to send an OTP to email for signup and can manage a simple email OTP system.</li>  
+<hr>
+         <li>ANIMATIONS, HOVER EFFECTS:
+I add small hover effects on buttons or change background color when someone moves the mouse over.</li>  
+<hr>
+         <li>STYLISH FORMS:
+I design forms with simple box shadows, colored borders, round corners, and nice input fields so they look good.</li>  
+    </ul>  
+  </div>
+  <nav>
+  
+    <img src="https://i.supaimg.com/5ae76a4a-1b6b-466c-b2a4-0b12dfd426dd.jpg" id="rate">
+  </nav>
+  
+  <div id="div7">
+   <i class="fas fa-play" id="right">
+   </i>   
+   
+   <div id="slider">
+  
+       <img src="https://i.supaimg.com/0f152257-a256-4069-bd4d-00d49f2649db.jpg" id="review">
+       
+       <img src="https://i.supaimg.com/cb98a94e-bbc9-4a9d-997a-7863584c252a.jpg" id="review">
+       
+       <img src="https://i.supaimg.com/751541c7-1ff8-4eed-b959-92c33466fe01.jpg" id="review">
+       
+       <img src="https://i.supaimg.com/837d1a00-e9fd-4cd7-b4e7-c78dc82078ae.jpg" id="review">
+       
+       <img src="https://i.supaimg.com/c182dcf8-e7a4-4531-b205-1abaa54cfbe4.jpg" id="review">
+       
+   </div>   
+      
+  </div>
+   
+  
+   <div id="inv-div">
+       
+  <img src="https://i.supaimg.com/423d79d1-d5d2-4e58-851e-3151736bd26e.png" id="involve">
+   </div>
+   
+   
+   
+   
+  <div id="div9">
+        <fieldset>
+       <center> <i class="fas fa-list-alt" id="form-icon"></i> </center>
+  <h2>YOUR VALUABLE FEEDBACK!</h2> 
+      <form>
+<label>YOUR LEGAL NAME:
+</label>
+        <input type="text" name="name" placeholder="ZAHID AHMAD" required="required">
+        <br>
+        <label>YOUR REGISTERED EMAIL ADDRESS:</label>
+        <input type="email" name="email" placeholder ="example@gmail.com" required="required"> 
+        <br>
+        <label>YOUR ACTIVE PHONE NUMBER:</label>
+        <input type="number"  name="number" placeholder ="+91 889956****" required="required">
+        <br>
+        <label>
+            SAY SOMETHING ABOUT THIS PORTFOLIO !
+        </label>
+        <br><br>
+        <textarea>WRITE A DESCRIPTION ABOUT THIS PORTFOLIO!</textarea>
+        <br>
+        <label>WHAT DO YOU THINK ABOUT MY PORTFOLIO?</label>
+        <br>
+        <select>
+ <option>SELECT HERE</option>
+  <option>ITS GOOD
+  </option>  
+<option>VERY ADVANCED
+</option>
+ <option>NEED IMPROVEMENT
+ </option>    
+        </select>
+        <br>
+
+    <input type="submit" value="SUBMIT HERE" id="submit">
+
+        
+             </form>
+             <h5>I AGREE TO SEND FEEDBACK</h5>
+<input type="checkbox" id="chk">
+    </fieldset>
+   
+  </div>
+  <center>
+<i class="fa-solid fa-angle-down" id="down"></i>
+  </center>
+  
+  
+  
+  
+  
+  <div id="table">
+ <h2>PROGRESS....</h2>
+      <table>
+          <tr>
+         <td>HTML</td>
+         <td>
+             
+     <i class="fas fa-check"></i>
+             
+         </td>
+          </tr>
+          <tr>
+              <td>
+                  CSS2
+              </td>
+              <td>
+              <i class="fas fa-check"></i>
+              </td>
+          </tr>
+          
+           <tr>
+              <td>
+  CSS3
+              <td>
+             <i class="fas fa-check"></i>
+              </td>
+          </tr>
+          
+           <tr>
+              <td>
+                  JAVASCRIPT 
+              </td>
+              <td>
+                  70%
+              </td>
+          </tr>
+          
+          
+           <tr>
+              <td>
+                  JQUERY
+              </td>
+              <td>
+     <i class="fas fa-check"></i>
+              </td>
+          </tr>
+          
+          
+           <tr>
+              <td>
+                  MySQL 
+              </td>
+              <td>
+         <i class="fas fa-check"></i>
+              </td>
+          </tr>
+          
+          
+          
+           <tr>
+              <td>
+                  PHP
+              </td>
+              
+              <td>
+                WORKING
+              </td>
+          </tr>
+          
+          
+      </table>
+  </div>
+  
+  
+<footer>
+  <a href="#">
+  <h1  id="name">ZAHID HUWAID</h1>
+  </a>
+  <br><br>
+
+<i class="fas fa-phone" id="phone-icon"></i> 
+  <a href="tel:8492015802">
+      
+  
+  8492015802</a><br>
+  <i class="fas fa-envelope"  id="email-icon"></i>
+  <a href="mailto:zahidahmadnajar2600@gmail.com"> ZAHID@EXAMPLE.COM</a><br>
+  
+ 
+  <a>KASHMIR</a>
+  <i class="fas fa-flag" id="flag-icon"></i>
+  <br><br>
+  <hr color=navy>
+  <br><br>
+<i class="fab fa-instagram" id="insta-icon"></i>
+  <a href="https://www.instagram.com/zahidhuwaid2600?igsh=MTNiZW1ocGpvaXlucw==" target="_blank">
+   INSTAGRAM</a>
+       
+       
+   <br>
+   <i class="fab fa-youtube" id="youtube-icon"></i>
+   
+  
+  <a>
+      
+   YOUTUBE
+  </a>
+  
+  <br><br>
+<hr color=navy>
+<br><br>
+ PASSIONATE ABOUT CREATING BEAUTIFUL AND FUNCTIONAL WEBSITES.<br>
+  ALWAYS LEARNING NEW SKILLS AND IMPROVING EVERY DAY.
+  <br><br>
+
+  © 2025 ALL RIGHTS RESERVED | MADE WITH ❤️ BY<br>
+   ZAHID HUWAID
+  <br>
+  
+   <i class="fas fa-arrow-up" id="go-top">
+   </i>
+   <br>
+   GO TO TOP
+</footer>
+</section>
+
+  <div id="resume-div">
+  <h1>RESUME</h1>
+     <img src="https://i.supaimg.com/51009dca-2402-43b4-8e26-2090a5091a71.jpg" id="resume">
+  
+   <button id="back-btn">BACK</button>
+   <footer>
+  <a href="#">
+  <h1  id="name">ZAHID HUWAID</h1>
+  </a>
+  <br><br>
+
+<i class="fas fa-phone" id="phone-icon"></i> 
+  <a href="tel:8492015802">
+      
+  
+  8492015802</a><br>
+  <i class="fas fa-envelope"  id="email-icon"></i>
+  <a href="mailto:zahidahmadnajar2600@gmail.com"> ZAHID@EXAMPLE.COM</a><br>
+  
+  <i class="fas fa-flag" id="flag-icon"></i>
+  <a>KASHMIR</a>
+  <i class="fas fa-flag" id="flag-icon"></i>
+  <br><br>
+  <hr color=navy>
+  <br><br>
+<i class="fab fa-instagram" id="insta-icon"></i>
+  <a href="https://www.instagram.com/zahidhuwaid2600?igsh=MTNiZW1ocGpvaXlucw==" target="_blank">
+   INSTAGRAM</a>
+       
+       
+   <br>
+   <i class="fab fa-youtube" id="youtube-icon"></i>
+   
+  
+  <a>
+      
+   YOUTUBE
+  </a>
+  
+  <br><br>
+<hr color=navy>
+<br><br>
+ PASSIONATE ABOUT CREATING BEAUTIFUL AND FUNCTIONAL WEBSITES.<br>
+  ALWAYS LEARNING NEW SKILLS AND IMPROVING EVERY DAY.
+  <br><br>
+
+  © 2025 ALL RIGHTS RESERVED | MADE WITH ❤️ BY<br>
+   ZAHID HUWAID
+  
+</footer>
+   
+  </div>
+  </div>
+  
+  
+  <div id="loader">
+   <i class='fa-solid fa-circle-notch fa-spin' id="spin">
+       °<br>°
+   </i> 
+   
+  </div>
+  
+  
+  <div id="about-me">
+ <img src="https://i.supaimg.com/23871f02-a88f-4c70-8373-43c71387b434.jpg" id="about-img">
+ <br><br>
+ <hr id="about-hr">
+ <br><br>
+
+ <h2>About Me</h2> <br>
+
+ <b>EDUCATION</b><br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> GRADUATED FROM GDC TANGMARG (2019 – 2025)<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> COMPLETED DIPLOMA WITH 93% SCORE<br><br>
+
+ <h2>LEARNING JOURNEY</h2><br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> DEVELOPED INTEREST IN WEB DEVELOPMENT IN LAST 7 MONTHS<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> LEARNED THROUGH YOUTUBE (STP COMPUTER EDUCATION) AND CHATGPT<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> COMPLETED COURSES IN HTML, CSS, JAVASCRIPT, JQUERY, PHP, AND MYSQL<br><br>
+
+ <h2>SKILLS</h2><br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> FRONTEND: HTML, CSS, JAVASCRIPT, JQUERY<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> BACKEND: PHP, MYSQL<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> STRONG PROBLEM-SOLVING AND SELF-LEARNING ABILITY<br><br>
+
+ <h2>CAREER GOAL</h2><br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> CURRENTLY LOOKING FOR A JOB IN WEB DEVELOPMENT<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> AIM TO GROW AS A FULL-STACK WEB DEVELOPER<br>
+ <i id="about-arrow" class="fa fa-arrow-right"></i> MOTIVATED TO CONTRIBUTE TO INNOVATIVE PROJECTS AND LEARN FROM PROFESSIONALS.<br>
+ 
+ <button id="back-btn2">BACK</button>
+
+  
+  <footer>
+  <a href="#">
+  <h1  id="name">ZAHID HUWAID</h1>
+  </a>
+  <br><br>
+
+<i class="fas fa-phone" id="phone-icon"></i> 
+  <a href="tel:8492015802">
+      
+  
+  8492015802</a><br>
+  <i class="fas fa-envelope"  id="email-icon"></i>
+  <a href="mailto:zahidahmadnajar2600@gmail.com"> ZAHID@EXAMPLE.COM</a><br>
+  
+  <i class="fas fa-flag" id="flag-icon"></i>
+  <a>KASHMIR</a>
+  <i class="fas fa-flag" id="flag-icon"></i>
+  <br><br>
+  <hr color=navy>
+  <br><br>
+<i class="fab fa-instagram" id="insta-icon"></i>
+  <a href="https://www.instagram.com/zahidhuwaid2600?igsh=MTNiZW1ocGpvaXlucw==" target="_blank">
+   INSTAGRAM</a>
+       
+       
+   <br>
+   <i class="fab fa-youtube" id="youtube-icon"></i>
+   
+  
+  <a>
+      
+   YOUTUBE
+  </a>
+  
+  <br><br>
+<hr color=navy>
+<br><br>
+ PASSIONATE ABOUT CREATING BEAUTIFUL AND FUNCTIONAL WEBSITES.<br>
+  ALWAYS LEARNING NEW SKILLS AND IMPROVING EVERY DAY.
+  <br><br>
+
+  © 2025 ALL RIGHTS RESERVED | MADE WITH ❤️ BY<br>
+   ZAHID HUWAID
+  
+</footer>
+</div>
+</section>
+
+  
+
+
+
+
+  <!--JAVA SCRIPT-->
+  
+  <script>
+      window.addEventListener("scroll",function(){
+      let div1=document.getElementById("div1");
+      
+      let bar=document.getElementById("bar");
+      
+      
+ let     strong1=document.getElementById("strong1");
+ 
+      if(window.scrollY>50){
+         div1.style.background="#ccc";
+         div1.style.width="60%";
+         div1.style.marginLeft="20%";
+         
+   strong1.innerHTML= "BE WITH ZAHID HUWAID";  
+   strong1.style.color="navy";
+   strong1.style.marginLeft="5%";
+   
+   bar.style.display="none"; 
+      }
+      else{
+      
+      strong1.style.color="grey";
+   strong1.style.marginLeft="0%";
+         div1.style.background="transparent"; 
+         
+     div1.style.width="80%";
+         div1.style.marginLeft="10%";
+         
+   strong1.innerHTML= "ZAHID HUWAID A DEDICATED LEARNER";        
+         
+         bar.style.display="block"; 
+         
+      }    
+          
+      });
+      
+  </script>
+ 
+  <script>
+ $(document).ready(function(){
+  $("#btn2").click(function(){
+      
+   $("#css2-img").fadeIn(1000);
+   $("#html-img").hide() ;
+   $("#css3-img").hide() ;
+    $("#java-img").hide();
+     $("#jquery-img").hide();
+     $("#sql-img").hide();
+      $("#php-img").hide();
+  });        
+ });
+         </script>
+         
+         
+         
+         
+         <script>
+             $(document).ready(function(){
+  $("#btn1").click(function(){
+      
+   $("#css2-img").hide();
+   $("#html-img").fadeIn(1000) ;
+    $("#css3-img").hide();
+     $("#java-img").hide();
+      $("#jquery-img").hide();
+      $("#sql-img").hide();
+      $("#php-img").hide();
+  });        
+ });
+             
+         </script>
+         
+         <script>
+                      $(document).ready(function(){
+  $("#btn3").click(function(){
+      
+   $("#css2-img").hide();
+   $("#css3-img").fadeIn(1000);
+    $("#html-img").hide();
+     $("#java-img").hide();
+      $("#jquery-img").hide();
+      $("#sql-img").hide();
+     $("#php-img").hide();
+  });        
+ });
+             
+         </script>
+         
+          <script>
+                      $(document).ready(function(){
+  $("#btn3").click(function(){
+      
+   $("#css2-img").hide();
+   $("#css3-img").fadeIn(1000);
+    $("#html-img").hide();
+     $("#java-img").hide();
+      $("#jquery-img").hide();
+      $("#sql-img").hide();
+     $("#php-img").hide();
+  });        
+ });
+             
+         </script>
+         
+         
+           <script>
+                      $(document).ready(function(){
+  $("#btn4").click(function(){
+  
+   $("#java-img").fadeIn(1000);
+   
+  
+      
+   $("#css2-img").hide();
+   
+    $("#css3-img").hide();
+    
+     $("#html-img").hide();
+     $("#jquery-img").hide();
+     $("#sql-img").hide();
+     $("#php-img").hide();
+  
+  });        
+ });
+             
+         </script>
+         
+         
+         
+           <script>
+                      $(document).ready(function(){
+  $("#btn5").click(function(){
+  
+   $("#jquery-img").fadeIn(1000);
+   
+  
+      
+   $("#css2-img").hide();
+   
+    $("#css3-img").hide();
+    
+     $("#html-img").hide();
+    
+   $("#java-img").hide();
+   $("#sql-img").hide();
+   $("#php-img").hide();
+   
+  });        
+ });
+             
+         </script>
+         
+         
+         
+         <script>
+                      $(document).ready(function(){
+  $("#btn6").click(function(){
+  
+   $("#sql-img").fadeIn(1000);
+   
+  
+      
+   $("#css2-img").hide();
+   
+    $("#css3-img").hide();
+    
+     $("#html-img").hide();
+    
+   $("#java-img").hide();
+   
+   $("#jquery-img").hide();
+   
+   $("#php-img").hide();
+  });     
+ });
+             
+         </script>
+         
+         
+
+  <script>
+                      $(document).ready(function(){
+  $("#btn7").click(function(){
+  $("#php-img").fadeIn(1000);
+  
+   $("#sql-img").hide();
+      
+   $("#css2-img").hide();
+   
+    $("#css3-img").hide();
+    
+     $("#html-img").hide();
+    
+   $("#java-img").hide();
+   
+   $("#jquery-img").hide();
+  });        
+ });
+             
+         </script>
+         <script>
+       let offset = 0;
+let clicks = 0;
+
+$("#right").click(function(){
+    clicks++;
+    offset -= 100;
+    
+    if(clicks > 4){
+        offset = 0;
+        clicks = 0;
+    }
+    
+    $("#slider").animate({"margin-left": offset + "%"}, 500); // 500ms me move
+});
+         </script>
+        
+        
+         <script>
+            $(document).ready(function(){
+           $("form").submit(function(e){
+            e.preventDefault();  
+               
+               
+           }) ;  
+                
+                
+            });
+        </script>
+       
+       
+       
+       <script>
+           $(document).ready(function(){
+       $("#chk").click(function(){
+           
+         $("#chk").slideToggle(1300);
+         
+         $("form").css({"filter":"blur(0px)"});
+        
+             
+         $("h5").slideToggle(1300);
+         
+           
+       });       
+               
+               
+           });
+       </script>
+       
+       
+        <script>
+           $("#bar").click(function(){
+        
+        $("#show-bar").toggle(200);
+        
+  if($("#bar").html()=="+"){
+  $("#bar").html("×");
+  
+    
+    }
+      else{
+           $("#bar").html("+");
+        
+    
+      }         
+               
+           });
+       </script>
+       
+       
+       <script>
+         $("#b1").click(function(){
+      $("section").hide();
+  $("#resume-div").fadeIn(1000) ;  
+             
+  $("#show-bar").hide();       
+         }); 
+       </script>
+       
+       
+       <script>
+         $("#back-btn").click(function(){
+         
+ $("#resume-div").hide();
+    $("section").fadeIn(1000);
+          
+             
+         }); 
+       </script>
+       
+       
+      <script>
+          $("#b2").click(function(){
+         $("#div1,#div2,#div3,#div4,#div5,#div6,#div7,#bdy,form").css({"background":"black"}); 
+         $("#show-bar").hide();
+         if($("#b2").html()=="DARK MODE"){
+             $("#b2").html("LIGHT MODE");
+             
+             
+         }
+         
+         else{
+           $("#b2").html("DARK MODE");
+           
+           $("#div1,#div2,#div3,#div4,#div5,#div6,#div7,#bdy,form").css({"background":"white"});   
+         }
+              
+          });
+      </script> 
+     
+     
+      
+      <script>
+    $(document).ready(function(){
+   setTimeout(function(){
+   
+      $("#loader").fadeOut();
+      $("#container").fadeIn();
+       
+   },1400);    
+        
+    });
+      </script>
+      
+      
+       <script>
+         $("#back-btn2").click(function(){
+         
+ $("#about-me").hide();
+    $("section").fadeIn(1000);
+          
+             
+         }); 
+         
+       </script>
+      
+      
+      
+      <script>
+         $("#b3").click(function(){
+      $("section").hide();
+  $("#about-me").fadeIn(1000) ;  
+             
+  $("#show-bar").hide();       
+         }); 
+       </script>
+       
+      
+      
+        <script>
+          $(document).ready(function(){
+  $("form").submit(function(){
+  alert("YOUR RESPONSE HAS BEEN SUBMITTED SUCCESSFULLY") ;  
+  
+  $("form").trigger("reset");
+  
+  $("form").css({"filter":"blur(30px)"});
+  
+  $("h5").show();
+  
+  $("h5").html("THANKS! YOUR RESPONSE HAS BEEN SUBMITTED SUCCESSFULLY.");
+      
+  });          
+              
+          });
+      </script>
+      
+    
+    
+    <script>
+        $("#b5").click(function(){
+            
+        alert("TRY TOMORROW "); 
+        
+         $("#show-bar").hide();
+        });
+    </script>
+    
+    
+    <script>
+        $("#down").click(function(){
+      $("#table").slideToggle();
+     $("#down").fadeOut(1200); 
+            
+            $("#down").fadeIn(800); 
+            
+
+        });
+    </script>
+    
+   
+<script> 
+if (navigator.onLine) {
+     
+} 
+else {
+  alert(" DEAR CHECK YOUR INTERNET CONNECTION");
+} 
+
+   </script>
+   
+   
+   <script>
+       $("#go-top").click(function(){
+     window.scroll({
+         top:0,behavior:"smooth"
+     });      
+           
+           
+           
+       });
+   </script>
+   
+   
+   <script>
+       $("#buy").click(function(){
+           
+       
+       $("#buy").html("FEATURE IS COMMING SOON....");
+       
+       $("#buy").attr("disabled",true);  
+           
+       });
+   </script>
+   
+   
+   <script>
+       
+       $("#b1,#b2,#b3,#b4,#b5,#b6").click(function(){
+          $("#bar").html("+");
+           
+       });
+   </script>
+   
+   
+   <script>
+       $("#b4").click(function(){
+           $("#show-bar").hide();
+       });
+   </script>
+   
+   <script>
+       $("#b6").click(function(){
+   alert("THIS FEATURE IS COMMING SOON");
+      $("#show-bar").hide();
+       });
+   </script>
+    </body>
+</html>
